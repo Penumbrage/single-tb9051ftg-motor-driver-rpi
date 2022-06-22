@@ -1,6 +1,10 @@
 from __future__ import print_function
 import time
-from single_tb9051ftg_rpi import motors, MAX_SPEED
+from single_tb9051ftg_rpi import Motor, Motors, MAX_SPEED
+
+# Create a Motor and Motors object
+motor1 = Motor(pwm1_pin=12, pwm2_pin=13, en_pin=4, enb_pin=5, diag_pin=6)
+motors = Motors(motor1)
 
 # Define a custom exception to raise if a fault is detected.
 class DriverFault(Exception):
