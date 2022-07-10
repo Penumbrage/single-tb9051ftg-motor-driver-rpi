@@ -12,7 +12,6 @@ if not _pi.connected:
 _max_speed = 480
 MAX_SPEED = _max_speed
 
-# TODO: These pins need to be updated based on the pins to be used by the Raspberry Pi Zero 2 W
 # NOTE: These are default pins if the pins are not indicated upon instantiation
 _pin_M1DIAG = 5
 # _pin_M2DIAG = 6
