@@ -53,7 +53,7 @@ Finally, to download and install the single_tb9051ftg_rpi library, run:
 ```
 git clone https://github.com/Penumbrage/single-tb9051ftg-motor-driver-rpi.git
 cd single-tb9051ftg-motor-driver-rpi
-sudo python setup.py install
+sudo pip install .
 ```
 
 ### Running the example program
